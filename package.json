@@ -1,0 +1,12 @@
+{
+  "name": "framework-tests",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Pierre-Marc Airoldi",
+  "license": "MIT",
+  "workspaces": [
+    "react-ts",
+    "svelte-ts",
+    "vue-ts"
+  ]
+}
