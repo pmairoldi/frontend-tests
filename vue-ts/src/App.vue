@@ -4,11 +4,20 @@ import Sorting from "./components/Sorting.vue";
 
 <template>
   <Sorting />
+  <!-- should be error -->
   <Sorting sorting="asc" />
+
   <Sorting direction="asc" />
+
   <Sorting direction="asc1" />
+
+  <!-- should be error -->
   <Sorting :sorting="'asc'" />
+
   <Sorting :direction="'asc'" />
+
   <Sorting :direction="'asc1'" />
+
+  <!-- should be error -->
   <Soritng />
 </template>
