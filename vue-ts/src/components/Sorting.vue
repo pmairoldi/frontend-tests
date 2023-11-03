@@ -1,5 +1,7 @@
 <script setup lang="ts">
-defineProps<{ direction?: "asc" | "desc" }>();
+defineProps<{
+  direction?: "asc" | "desc";
+}>();
 
 // import { PropType } from "vue";
 
