@@ -9,10 +9,10 @@ import { SortingComponent } from './sorting.component';
   template: `
     <sorting />
     <sorting sorting="asc" />
-    <sorting [sorting]="'asc'" />
     <sorting direction="asc" />
-    <sorting [direction]="'asc'" />
     <sorting direction="asc1" />
+    <sorting [sorting]="'asc'" />
+    <sorting [direction]="'asc'" />
     <sorting [direction]="'asc1'" />
     <soritng />
   `,

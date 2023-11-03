@@ -7,5 +7,8 @@ import Sorting from "./components/Sorting.vue";
   <Sorting sorting="asc" />
   <Sorting direction="asc" />
   <Sorting direction="asc1" />
+  <Sorting :sorting="'asc'" />
+  <Sorting :direction="'asc'" />
+  <Sorting :direction="'asc1'" />
   <Soritng />
 </template>
