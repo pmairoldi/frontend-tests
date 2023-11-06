@@ -8,12 +8,20 @@ import { SortingComponent } from './sorting.component';
   imports: [CommonModule, SortingComponent],
   template: `
     <sorting />
+
+    <!-- should be error -->
     <sorting sorting="asc" />
+
     <sorting direction="asc" />
+
     <sorting direction="asc1" />
+
     <sorting [sorting]="'asc'" />
+
     <sorting [direction]="'asc'" />
+
     <sorting [direction]="'asc1'" />
+
     <soritng />
   `,
 })
